@@ -64,9 +64,37 @@ h5{
   font-size: 16px;
 }
 
-ul {
+ul{  
   padding-left: 24px;
+}
+
+ul.bluelist li{  
+  color: #0C51A7;
   font-weight: bold;
+}
+
+ul.bluelist li::marker {
+  color: black; /* Define a cor da bolinha como preta */
+}
+
+ul.colorlist li{
+  font-weight: bold;
+}
+
+ul.colorlist li:nth-child(1) {
+  color: #591B98; /* Cor do texto do item 1 */
+}
+
+ul.colorlist li:nth-child(2) {
+  color: #E5245E; /* Cor do texto do item 2 */
+}
+
+ul.colorlist li:nth-child(3) {
+  color: #E95E10; /* Cor do texto do item 3 */
+}
+
+ul.colorlist li::marker {
+  color: black; /* Define a cor da bolinha como preta */
 }
 
 footer {
