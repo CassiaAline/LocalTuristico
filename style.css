@@ -32,12 +32,19 @@ main {
 
 p{
   color: #333333;
-  text-align: left;
   font-size: 16px;  
+}
+
+p.baseboard{
+  text-align: center;
 }
 
 #discover{
   margin-bottom: 64px; 
+}
+
+#temples section {
+  margin-top: 48px; 
 }
 
 hr {
@@ -103,10 +110,6 @@ ul.bluelist li{
   font-weight: bold;
 }
 
-ul.bluelist li::marker {
-  color: black; /* Define a cor da bolinha como preta */
-}
-
 ul.colorlist li{
   font-weight: bold;
 }
@@ -123,14 +126,15 @@ ul.colorlist li:nth-child(3) {
   color: #E95E10; /* Cor do texto do item 3 */
 }
 
-ul.colorlist li::marker {
+ul.colorlist li::marker,
+ul.bluelist li::marker {
   color: black; /* Define a cor da bolinha como preta */
 }
 
 footer {
   color: #333333;
   text-align: center;
-  padding-bottom: 41px;
+  padding: 40px;
   line-height: 150%;
 }
 
